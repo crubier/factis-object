@@ -1,0 +1,46 @@
+{
+  "name": "factis-object",
+  "version": "0.0.1",
+  "description": "Transform triples to JSON objects, and JSON objects to triples. Works nicely with the factis package",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crubier/factis-object.git"
+  },
+  "engines": {
+    "node": ">=0.10.0 ",
+    "npm": "~2.0.0"
+  },
+  "files": [
+    "src/index.js",
+    "package.json",
+    "readme.md",
+    "changelog.md"
+  ],
+  "keywords": [
+    "hexastore",
+    "rdf",
+    "graph",
+    "database",
+    "json",
+    "triple",
+    "triplestore",
+    "pure",
+    "js"
+  ],
+  "author": "Vincent Lecrubier <vincent.lecrubier@gmail.com> (http://www.vincentlecrubier.fr/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crubier/factis-object/issues"
+  },
+  "homepage": "https://github.com/crubier/factis-object",
+  "dependencies": {
+    "node-uuid": "^1.4.2"
+  },
+  "devDependencies": {
+    "jest-cli": "^0.4.0"
+  }
+}
